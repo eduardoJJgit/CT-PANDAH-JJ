@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+nav{
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+nav li{
+    display: inline;
+    display: flex;
+    justify-content: center;
+   
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color: red;
+}
+.dropdown-menu{
+    position:absolute;
+    border: 0 0 2px solid rgb(255, 255, 255);
+    display: none;
+}
+.dropdown-menu a{
+    display: block;
+    color: rgb(255, 255, 255);
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

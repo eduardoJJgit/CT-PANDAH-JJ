@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+    color: red;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.interface{
+    display: flex;
+    justify-content: center;
+}

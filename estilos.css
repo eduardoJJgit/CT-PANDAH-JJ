@@ -1,0 +1,69 @@
+/*TOPO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    cursor: url("espada.webp"), auto;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-around;
+    
+}
+/*ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s ;
+}
+a:hover{
+    color: white;
+    transform: scale(2.0);
+}
+li{
+    display: inline-block;
+    padding: 0 40px;
+}
+button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/*TOPO DO SITE*/
+
+.txt-topo-site h1{
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding: 0 auto;
+    font-size: 70px;
+}
+.txt-topo-site p{
+    color: white;
+   font-size: 30px;
+   transition: .2s ;
+}
