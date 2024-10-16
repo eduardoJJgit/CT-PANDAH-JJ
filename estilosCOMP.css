@@ -1,169 +1,36 @@
 body {
-    background-color: white;
-
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    height: 0%;
+    color: orange  ;
 }
-
-#proCompetidor {
-    height: 65px;
-    width: 300px;
-}
-
-.container1 {
+.container1{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: black;
-    color: white;
-
-}
-.CONT1{
-    font-weight: 1000;
-    font-size: 50px;
-}
-.NOME10{
-    color: white;
-    
-}
-.NOME20{
-   color: red;
-}
-
-.filho {
-    display: flex;
     align-items: center;
-    gap: 40px;
-    color: white;
-    font-size: 20px;
+    padding: 100px;
 }
-
-#banner {
-    width: 100%;
-    height: 58vh;
+.iconeM{
+   height: 600px;
+   width: 550px;
 }
-
-.container2 {
+.titulo{
     display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-left: 360px;
-    gap: 15px;
-    
-}
-
-.titulo {
-    display: flex;
-    font-weight: 600;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.paiC2 {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-
-}
-
-.iconeM {
-    height: 300px;
-    width: 270px;
-    border-radius: 12px;
-
-}
-
-.card{
-    width: 270px;
-    height: 390px;
-    border: solid 1px gray;
-    border-radius: 10px;
-}
-.cont1{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 9px;
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container3{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-left: 360px;
-    gap: 15px;
-    
-}
-.paiC3{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-
-}
-.iconeM {
-    height: 300px;
-    width: 270px;
-    border-radius: 12px;
-
-}
-.cont1{
-    display: flex;
     align-items: center;
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.botao{
+    display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    background-color: #199319;
+    color: white;
+    padding: 15px;
     text-decoration: none;
-   
-}
-.card2{
-    width: 270px;
-    height: 390px;
-    border: solid 1px gray;
-    border-radius: 10px;
-}
-.cont2{
-    text-decoration: none;
-    background-color: blue;
-    border-radius: 3px;
-    color: white;
-    font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 
 
